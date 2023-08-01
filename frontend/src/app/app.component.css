@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "StayVibes";
+    src: url("/src/assets/fonts/Stayvibes.otf") format("otf");
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    color: #CC00FF;
+    border-bottom: solid 3px #CC00FF;
+}
+
+h1 {
+    font-family: "StayVibes";
+    font-size: 90px;
+    height: 80px;
+}
+
+@media (max-width: 767px) {
+    h1 {
+      font-size: 50px;
+    }
+}

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MyException\" />
+    <None Remove="Implementations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MyException\" />
+    <Folder Include="Implementations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FsyaFignya.Common\FsyaFignya.Interfaces\FsyaFignya.Interfaces.csproj" />
+    <ProjectReference Include="..\FsyaFignya.DataBase\FsyaFignya.DataBase.csproj" />
+  </ItemGroup>
+</Project>

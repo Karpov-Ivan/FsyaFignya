@@ -1,0 +1,29 @@
+<div class="price">
+    <div class="image">
+        <div class="svinka">
+            <p>e</p>
+        </div>
+        <div class="svinka">
+            <p>e</p>
+        </div>
+        <div class="logo">
+            <p>BITCOIN</p>
+        </div>
+        <div class="svinka">
+            <p>e</p>
+        </div>
+        <div class="svinka">
+            <p>e</p>
+        </div>
+    </div>
+    <div class="list-space">
+        <div class="list">
+            <ul>
+                <li *ngFor="let price of prices">{{price.price + ' - ' + price.requestDate}}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="but">
+        <button (click)="getData()">Price Bitcoin</button>
+    </div>
+</div>

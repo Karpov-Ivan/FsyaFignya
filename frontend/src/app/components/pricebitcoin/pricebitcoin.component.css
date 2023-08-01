@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "StayVibes";
+    src: url("/src/assets/fonts/Stayvibes.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Bitcoin";
+    src: url("/src/assets/fonts/Bitcoin.otf") format("otf");
+}
+
+.image {
+    font-family: "Bitcoin";
+    color: pink;
+    text-align: center;
+    font-size: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    color: yellow;
+    font-family: "StayVibes";
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.but button{
+    border-radius: 10px;
+    border-color: white;
+    text-align:center;
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: #CC00FF;
+    font-size: 30px;
+    font-family: "StayVibes";
+}
+
+.but {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.list-space{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.list {
+    background-color: #CC00FF;
+    width: 500px;
+    border-radius: 10px;
+    padding: 3%;
+    border: 1px solid white;
+}
+
+li {
+    color: white;
+    font-size: 30px;
+    word-wrap: break-word;
+}
+
+lu {
+    text-align:center;
+}
+
+@media screen and (max-width: 767px) {
+    .image {
+        font-size: 60px;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .but button {
+        width: 150px;
+        height: 25px;
+        font-size: 16px;
+    }
+
+    .list-space {
+        margin-top: 10px;
+    }
+
+    .list {
+        width: 100%;
+    }
+
+    li {
+        font-size: 20px;
+    }
+}

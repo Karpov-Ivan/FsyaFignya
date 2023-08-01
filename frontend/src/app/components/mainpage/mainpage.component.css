@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "StayVibes";
+  src: url("/src/assets/fonts/Stayvibes.otf") format("otf");
+}
+
+h1 {
+    color: #CC00FF;
+    font-family: "StayVibes";
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    color: #CC00FF;
+    font-family: "StayVibes";
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    color: white;
+    font-family: "StayVibes";
+    text-align: center;
+    font-size: 30px;
+}
+
+h4 {
+    color: #C882FF;
+    font-family: "StayVibes";
+    text-align: center;
+    font-size: 30px;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    border-bottom: solid 3px #CC00FF;
+  }
+
+.container-buttons button {
+    background-color: #8300C1;
+    color: #FFFFFF;
+    font-family: "StayVibes";
+    border-radius: 20px;
+    border-color: #C882FF;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+}
+
+.container-buttons-square {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+.container-buttons-square button {
+    background-color: #C882FF;
+    color: #FFFFFF;
+    font-family: "StayVibes";
+    font-size: 30px;
+    height: 120px;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.job, .description, .about-me, .contacts{
+    border-bottom: solid 3px #CC00FF;
+}
+
+.job h1 {
+    border-bottom: solid 3px #CC00FF;
+    padding-bottom: 20px;
+}
+
+.description h1 {
+    border-bottom: solid 3px #CC00FF;
+    padding-bottom: 20px;
+}
+
+.about-me h1 {
+    border-bottom: solid 3px #CC00FF;
+    padding-bottom: 20px;
+}
+
+.contacts h1 {
+    border-bottom: solid 3px #CC00FF;
+    padding-bottom: 20px;
+}
+
+.about-me div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-me .text {
+    flex-direction: column;
+}
+
+@media (max-width: 767px) {
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .container-buttons {
+      margin-top: 20px;
+    }
+    .container-buttons button {
+      margin: 10px;
+      font-size: 16px;
+      padding: 5px 8px;
+    }
+    .container-buttons-square {
+      margin-top: 20px;
+    }
+    .container-buttons-square button {
+      margin: 10px;
+      font-size: 16px;
+    }
+    .job, .description, .about-me, .contacts {
+      padding-bottom: 20px;
+    }
+    .about-me .text {
+      margin-right: 0;
+    }
+    .about-me div {
+      display: block;
+      text-align: center;
+    }
+  }  

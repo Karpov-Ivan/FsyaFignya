@@ -1,0 +1,42 @@
+<div class="mainpage">
+    <div class="container-buttons">
+        <button (click)="scroll(job)">Job</button>
+        <button (click)="scroll(description)">Description</button>
+        <button (click)="scroll(aboutme)">About me</button>
+        <button (click)="scroll(contacts)">Contacts</button>
+    </div>
+    <div class="job" #job>
+        <h1>Job</h1>
+        <div class="container-buttons-square">
+            <button routerLink="/seriestheorybigbang">"The big bang theory" series</button>
+            <button routerLink="/pricebitcoin">Bitcoin price</button>
+            <button routerLink="/countriesnato">Nato contries</button>
+        </div>
+        <div class="container-buttons-square">
+            <button routerLink="/agebyname">Find out your age</button>
+            <button routerLink="/factsaboutdogs">Facts about dogs</button>
+        </div>
+    </div>
+    <div class="description" #description>
+        <h1>Description</h1>
+        <h3>This is my project</h3>
+        <h2>Project description:</h2>
+        <h3>The "FsyaFignya" project includes a section with funny stuff that offers users various entertainment. In this section, users can find interesting categories like "The big bang theory" series, which provides information about the TV show "The Big Bang Theory," "Bitcoin price," displaying the current bitcoin price, and "Nato countries," presenting a list of NATO countries. Other sections include age determination based on names and fun facts about dogs. This section is designed for amusement and brings a little joy to everyday routines.</h3>
+        <h2>Information about database:</h2>
+        <h3>Postgresql as a dbms</h3>
+    </div>
+    <div class="about-me" #aboutme>
+        <h1>About me</h1>
+        <div class="text">
+            <h3>I am a student of <h2>bauman moscow state technical university</h2></h3>
+            <h3>I am studying for the <h2>2-nd year</h2> </h3>
+            <h3>I want a <h2>dachshund</h2></h3>
+        </div>
+    </div>
+    <div class="contacts" #contacts>
+        <h1>Contacts</h1>
+        <div class="text">
+            <h3>ivankarpov03@gmail.com</h3>
+        </div>
+    </div>
+</div>

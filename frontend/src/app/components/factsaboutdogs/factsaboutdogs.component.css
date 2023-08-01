@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "StayVibes";
+    src: url("/src/assets/fonts/Stayvibes.otf") format("otf");
+}
+
+.dogs {
+    margin-top: 30px;
+}
+
+.image, .buttonfacts, .list-space{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.buttonfacts button {
+    background-color: #8300C1;
+    color: #FFFFFF;
+    font-family: "StayVibes";
+    border-radius: 20px;
+    border-color: #C882FF;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.list-space{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.list {
+    background-color: #CC00FF;
+    width: 500px;
+    border-radius: 10px;
+    padding: 3%;
+    border: 1px solid white;
+    text-align: center;
+}
+
+li {
+    color: white;
+    font-size: 30px;
+    word-wrap: break-word;
+}
+
+lu {
+    text-align:center;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .list {
+        padding: 2%;
+        max-width: 400px;
+    }
+
+    li {
+        font-size: 20px;
+    }
+
+    .buttonfacts button {
+        width: 150px;
+        height: 25px;
+        font-size: 16px;
+    }
+
+    .list-space {
+        margin-top: 10px;
+    }
+
+    .img {
+        width: 300px;
+        height: 200px;
+    }
+}

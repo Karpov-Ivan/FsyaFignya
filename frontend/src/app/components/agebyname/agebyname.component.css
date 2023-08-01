@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "StayVibes";
+    src: url("/src/assets/fonts/Stayvibes.otf") format("otf");
+}
+
+.inputdata {
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    font-family: "StayVibes";
+    color: white;
+    font-size: 40px;
+}
+
+.field input{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+}
+
+.but button{
+    border-radius: 10px;
+    border-color: white;
+    text-align:center;
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: #CC00FF;
+    font-size: 24px;
+    font-family: "StayVibes";
+    margin-top: 40px;
+}
+
+.but {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.list-space{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.list {
+    background-color: #CC00FF;
+    width: 500px;
+    border-radius: 10px;
+    padding: 3%;
+    border: 1px solid white;
+    text-align: center;
+}
+
+li {
+    color: white;
+    font-size: 30px;
+    word-wrap: break-word;
+}
+
+lu {
+    text-align:center;
+}
+
+select { 
+    width: 300px; 
+    height: 30px; 
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .list {
+        padding: 2%;
+        max-width: 400px;
+    }
+
+    li {
+        font-size: 20px;
+    }
+
+    .but {
+        margin-top: 10px;
+    }
+
+    .but button {
+        width: 150px;
+        height: 25px;
+        font-size: 16px;
+    }
+
+    .list-space {
+        margin-top: 10px;
+    }
+}

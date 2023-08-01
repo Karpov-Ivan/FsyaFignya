@@ -1,0 +1,33 @@
+<div class="data">
+    <div class="inputdata">
+        <form [formGroup]="dataForm">
+            <div class="field">
+                <div class="firstname">
+                    <p>ENTER YOUR NAME</p>
+                    <a>
+                        <input type="text" id="firstname" name="firstname" formControlName="firstname" placeholder="Name">
+                    </a>
+                </div>
+                <div class="country">
+                    <p>ENTER THE COUNTRY</p>
+                    <p>
+                        <select formControlName="country">
+                          <option [ngValue]="null" disabled>Select сountry</option>
+                          <option *ngFor="let country of countries" [ngValue]="country.id">{{country.name}}</option>
+                        </select>
+                    </p>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="list-space">
+        <div class="list">
+            <ul>
+                <li *ngFor="let age of ages">{{age.name + ' (' + age.country + ') ' + ' - ' + age.age}}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="but">
+        <button (click)="getData()">GET AGE</button>
+    </div>  
+</div>

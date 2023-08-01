@@ -1,0 +1,13 @@
+<div class="series">
+    <div class="heading">
+        <h1>The Big Bang Theory</h1>
+    </div>
+    <div class="list">
+        <ol>
+            <li *ngFor="let seria of series">{{seria.seriesName}}</li>
+        </ol>
+    </div>
+    <div class="but">
+        <button (click)="getData()">Series The Big Bang Theory</button>
+    </div>
+</div>

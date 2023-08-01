@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "StayVibes";
+    src: url("/src/assets/fonts/Stayvibes.otf") format("otf");
+  }
+
+h1 {
+    color: white;
+    font-family: "StayVibes";
+    text-align: center;
+    font-size: 60px;
+}
+
+.series {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px; 
+}
+
+.list {
+    background-color: #CC00FF;
+    width: 100%;
+    max-width: 700px; 
+    padding: 4%;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+li {
+    color: white;
+    font-size: 30px;
+    word-wrap: break-word;
+}
+
+lu {
+    text-align:center;
+}
+
+.but button{
+    border-radius: 10px;
+    border-color: white;
+    text-align:center;
+    width: 300px;
+    height: 50px; 
+    color: white;
+    background-color: #CC00FF;
+    font-size: 20px;
+    font-family: "StayVibes";
+}
+
+.but {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .list {
+        padding: 2%;
+    }
+
+    li {
+        font-size: 20px;
+        max-width: 300px;
+    }
+
+    .but button {
+        width: 200px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .but {
+        margin-top: 10px;
+    }
+}

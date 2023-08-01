@@ -1,0 +1,15 @@
+<div class="dogs">
+    <div class="image">
+        <img src="https://zooafishavrn.ru/wp-content/uploads/2019/03/dog-1232449_1920.jpg" alt="Dog">
+    </div>
+    <div class="buttonfacts">
+        <button (click)="getData()">Facts about dogs</button>
+    </div>
+    <div class="list-space">
+        <div class="list">
+            <ul>
+                <li *ngFor="let fact of facts">{{fact.factAboutDogs}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

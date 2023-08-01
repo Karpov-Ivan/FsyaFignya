@@ -1,0 +1,15 @@
+<div class="nato">
+    <div class="heading">
+        <h1>Nato</h1>
+    </div>
+    <div class="list-space">
+        <div class="list">
+            <ul>
+                <li *ngFor="let country of countries">{{country.countryName + ' - ' + country.dateOfEntry}}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="but">
+        <button (click)="getData()">Countries NATO</button>
+    </div>
+</div>
